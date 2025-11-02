@@ -1,0 +1,31 @@
+# Build artifacts
+/target/
+/out/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# Log files
+*.log
+logs/
+
+# Dependency caches
+.gradle/
+.m2/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment-specific configuration (if not managed by other means)
+application-dev.properties
+application-prod.properties
+application-local.properties
+*.env
